@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+nav{
+background: black;
+height: 100px;
+width: 100%;
+position: fixed;
+z-index: 200;
+
+
+}
+
+.image1{
+width: 200px;
+height: 30px;
+padding:auto;
+
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    padding: 35px;
+    list-style-type: none;
+    font-size: 10px;
+
+}
+
+ul li a{
+    color: white;
+    
+    
+    
+}
+
+nav ul{
+    align-items: center;
+   
+    
+}
+
+li button{
+    background: #00612e;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+}
+
+.section1{
+    margin-top: auto;
+    background: url(./nysc\ pic.jpeg);
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-size: cover;
+   
+}
+
+.divblack{
+    background: rgba(0, 0, 0, 0.866);
+    position: relative;
+    height: 120vh;
+}
+
+.divtext{
+line-height:40px ;
+padding-top: 150px;
+text-align: center;
+color: white;
+font-size: 25px;
+
+}
+
+.butlearn{
+    background: #ffffff;
+    color: black;
+    width: 120px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.butlearn a{
+    color: black;
+}
+
+.butap{
+
+    background: #02632f;
+    width: 120px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    border:none;
+}
+
+.butap a{
+    color: white;
+}
+
+.plink{
+
+    color: #948145;
+    text-align: center;
+}
+
+.ptext{
+    text-align: center;
+    color: white;
+}
+
+.section2{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    gap: 5rem;
+    background: #ffffff;
+}
+
+.NYSC{
+
+width: 45%;
+height: 300PX;
+}
+
+.section2 div{
+    width: 45%;
+    
+    
+}
+
+.section2 div p{
+    line-height: 2.5em;
+    font-size: 17px;
+}
+
+.section3{
+    width: 100%;
+    height: 118vh;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    gap: 1rem;
+    background: #f0e4d1;
+    
+    
+}
+
+.cutmage{
+    margin-top: 60px;
+    width: 55%;
+    height: 500PX;
+    margin-right: 40px;
+    
+
+}
+
+.section3 div{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+.divol{
+padding: 10px;
+
+}
+
+.divol li{
+    margin-left: 35px;
+}
+
+.divol h2{
+
+margin-top: 40px;
+
+}
+
+.section4{
+    gap: 2.5rem;
+    background: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    margin-top: 60px;
+    display: flex;
+}
+
+.imadress{
+    width: 60%;
+    height: 520PX;
+}
+
+.divdress{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+
+.divdress ol{
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.section5{
+    width: 100%;
+    position: relative;
+    height: 107vh;
+    margin-top: 5px;
+    display: flex;
+    background: #f0e4d1;
+    /* padding: 20px; */
+}
+
+.diveli{
+
+    margin-top: 100px;
+    line-height: 40px;
+    font-size: large;
+}
+
+.imabread{
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
+}
+
+.diveli ol{
+    margin-left: 40px;
+}
+
+.section6{
+
+    width: 100%;
+    position: relative;
+    height: 107vh;
+    margin-top: 80px;
+    background: #ffffff;
+    line-height: 50px;
+    font-size: large;
+    display: contents;
+}
+
+.olver{
+
+    margin-left: 30px;
+}
+
+.pdev{
+line-height: 2rem;
+
+}
+
+table{
+    border: 1px solid;
+    margin: auto;
+    width: 35%;
+}
+
+tr td{
+    border: 1px solid;
+    text-align: center;
+    width: 10px;
+}
+
+.olbiz{
+    margin-left: 30px;
+}
+
+.olinv{
+    margin-left: 40px;
+}
+
+.section7{
+    background: #f0e4d1;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+}
+
+.but7{
+    background: #00612e;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+}
+
+.but7 a{
+    color: white;
+}
+
+.div7{
+    margin-top: 50px;
+    margin-left: 30%;
+    line-height: 40px;
+}
+
+footer{
+    background: #006c33;
+    position: relative;
+    width: 100%;
+    /* height: 120vh; */
+    line-height: 30px;
+}
+
+.imgfooter{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.divfooter p{
+
+    color: white;
+    margin-left: 40px;
+
+}
+
+.quick{
+    color: white;
+}
+
+.divquick a{
+
+color: white;
+}
+
+.divquick{
+
+    margin-top: 100px;
+}
+
+.divp{
+    color: white;
+    margin-top: 100px;
+}
+
+.divh3 h3{
+    color: white;
+    margin-top: 100px;
+}
+
+.butfoot{
+    background: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 6px;
+    color: black;
+    border:none;
+}
+
+.divfoot{
+    display: flex;
+    gap: 10rem;
+}
+
+.footap{
+    color: black;
+}
